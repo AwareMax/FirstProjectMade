@@ -1,0 +1,738 @@
+/************************************/
+/********  FONTS ********************/
+/************************************/
+
+@font-face {
+    font-family: MonserratRegular;
+    src: url('fonts/montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url('fonts/roboto/robotoslab-regular-webfont.ttf');
+}
+
+/************************************/
+/********  GENERAL ******************/
+/************************************/
+
+body {
+	max-width: 1440px;
+	margin: auto;
+}
+
+.display-table {
+    display: table;
+    table-layout: fixed;
+}
+
+.display-cell {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+/************************************/
+/********  HEADER *******************/
+/************************************/
+
+.top-header {
+	padding-left: 16.42%;
+	padding-right: 16.42%;
+}
+
+    .top-header .row {
+        height: 115px;
+    }
+
+#top-menu {
+  position:relative;
+}
+
+    #top-menu ul {
+        padding-left: 0;
+    }
+
+    #top-menu ul li {
+        display: inline-block;
+        font-family: MonserratRegular;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #777777;
+        margin-right: 20px;
+        cursor:pointer;
+    }
+
+        #top-menu ul li a {
+            color:#777777;
+            text-decoration:none;
+        }
+
+            #top-menu ul li a:hover {
+                color:#222222;
+            }
+
+            #top-menu ul li:last-child {
+                margin-right: 0;
+            }
+
+            #top-menu ul li:hover {
+                color: #222222;
+            }
+
+#logo, #top-menu {
+  	padding: 0;
+  	display: table-cell;
+  	vertical-align: middle;
+}
+
+/************************************/
+/********  TOP BANNER ***************/
+/************************************/
+
+.top-banner {
+    background: url('../images/presentation.jpg');
+    width:100%;
+    height: 530px;
+}
+
+    .top-banner h1 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 60px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .top-banner h2 {
+        font-family: RobotoSlab;
+        font-size: 20px;
+        color: #cccccc;
+    }
+
+.full-width {
+	 width: 100%;
+}
+
+.view-portfolio {
+  	margin-top: 52px;
+  	height: 60px;
+  	border-radius: 50px;
+  	width: 200px;
+  	font-family: MonserratRegular;
+  	font-weight: bold;
+  	font-size: 16px;
+  	text-transform:uppercase;
+}
+
+/*                    SERVICES                         */
+
+.profservices {
+    height:535px;
+    max-height:535px;
+}
+
+    .profservices h1 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        text-transform:uppercase;
+        margin-top:98px;
+        color:#222222;
+    }
+
+    .profservices h2 {
+        font-family:RobotoSlab;
+        font-size:20px;
+        color:#cccccc;
+        margin-top:20px;
+        margin-bottom:83px;;
+    }
+
+.profservicesimg h1 {
+    font-family:MonserratRegular;
+    font-weight:bold;
+    font-size:18px;
+    text-transform:uppercase;
+    margin-top:35px;
+    color:#222222;
+}
+
+.profservicesimg h2 {
+    font-family:RobotoSlab;
+    font-size:15px;
+    color:#777777;
+    margin-bottom:0;
+    line-height: 1.5;
+}
+
+/*            Middle Banner             */
+
+.middle-banner {
+    background:url(../images/just-relax.jpg);
+    background-repeat:no-repeat;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    min-height:616px;
+}
+
+    .middle-banner h1 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top:95px;
+        line-height:1.5;
+    }
+
+    .middle-banner h2 {
+        font-family: RobotoSlab;
+        font-size: 16px;
+        color: #cccccc;
+        line-height: 1.5;
+
+    }
+
+.view-portfolio1 {
+  	margin-top: 35px;
+  	height: 60px;
+  	border-radius: 50px;
+  	width: 167px;
+  	font-family: MonserratRegular;
+  	font-weight: bold;
+  	font-size: 16px;
+  	text-transform:uppercase;
+}
+
+.highlight {
+    background-color:#fff !important;
+    color:black !important;
+}
+
+/*                 Latest Project               */
+
+.latestproject {
+    background:url('../images/isometric-iPad-Air1.jpg');
+    background-repeat:no-repeat;
+    height:auto;
+    min-height:860px;
+    width:100%;
+}
+
+    .latestproject h3 {
+        margin-top: 90px;
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 18px;
+        color:#222222;
+    }
+
+    .latestproject h5 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 18px;
+        color:#222222;
+        margin-bottom:0px;
+        margin-top:16px;
+    }
+
+    .latestproject p {
+        font-family: RobotoSlab;
+        font-size:16px;
+        color:#777777;
+    }
+
+.latestprojectheader {
+    height:254px;
+}
+
+    .latestprojectheader h1 {
+        margin-top:90px!important;
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #222222;
+        margin-top:35px;
+    }
+
+    .latestprojectheader h2 {
+        font-family: RobotoSlab;
+        font-size: 20px;
+        color: #777777;
+    }
+
+.latestproject img {
+    margin-top:15px;
+}
+
+
+.imgtextlatestproject {
+    margin-top:5px;
+}
+
+.latestproject a {
+    color:#7cc576;
+    font-size:16px;
+    font-family:MonserratRegular;
+    font-weight: Bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+    .latestproject a:hover {
+        color:black;
+        text-decoration:none;
+    }
+
+/*        Culture and Values         */
+
+.cultureval {
+    height:auto;
+    min-height:560px;
+}
+
+
+    .cultureval h1 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #222222;
+    }
+
+    .cultureval h2 {
+        font-family: RobotoSlab;
+        font-size: 20px;
+        color: #777777;
+    }
+
+    .cultureval h5 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 18px;
+        color:#222222;
+    }
+
+    .cultureval p {
+        font-family: RobotoSlab;
+        font-size:14px;
+        color:#777777;
+    }
+
+.culturevalmargin {
+    margin-top:90px;
+}
+
+.perfectline {
+    background-color:#777777;
+    height:2px;
+    width:160px;
+    position:relative;
+    top:45px;
+    left:300px;
+}
+
+.perfectline1 {
+    background-color:#777777;
+    height:2px;
+    width:160px;
+    position:relative;
+    top:45px;
+    left:700px;
+}
+
+/*      Our Clients       */
+
+.ourclients {
+    height:auto;
+    min-height:810px;
+}
+
+    .ourclients h1 {
+        margin-top:90px;
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #222222;
+    }
+
+    .ourclients h2 {
+        font-family: RobotoSlab;
+        font-size: 20px;
+        color: #777777;
+    }
+
+.ourclientsimg {
+    margin-top:70px;
+}
+
+.ourclientscircle {
+    height:220px;
+    width:220px;
+    background-color:#f9f9f9;
+}
+
+.ourclient-male {
+    background-image: url('../images/dude.jpg');
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+}
+.ourclient-female {
+    background-image: url(../images/Kim.jpeg);
+    background-repeat: no-repeat;
+}
+
+.ourclientsrect {
+    width:100%;
+    height:auto;
+    min-height:172px;
+    background-color:#f9f9f9;
+    position:relative;
+    top:10px;
+}
+
+    .ourclientsrect:after {
+        content: ' ';
+        position:absolute;
+        display:block;
+        top:40%;
+        width:0;
+        left:-15px;
+        border-style: solid;
+        border-width: 15px 15px 15px 0;
+        border-color: transparent #f9f9f9;
+    }
+
+.ourclients h3 {
+    padding-top:45px;
+    font-family: RobotoSlab;
+	font-size: 22px;
+	color: #777777;
+    vertical-align: middle;
+}
+
+.ourclients h4 {
+    font-family: RobotoSlab;
+	font-size: 18px;
+    color:#7cc576;
+}
+
+.ourclientsrect1 {
+    width:100%;
+    height:auto;
+    min-height:172px;
+    background-color:#f9f9f9;
+    position:relative;
+    top:10px;
+}
+
+    .ourclientsrect1:after {
+        content: ' ';
+        position:absolute;
+        display:block;
+        top:40%;
+        width:0;
+        right:-15px;
+        border-style: solid;
+        border-width: 15px 0 15px 15px;
+        border-color: transparent #f9f9f9;
+    }
+
+
+/*     Ready to talk     */
+
+
+.readytotalk {
+    height:auto;
+    min-height:auto;
+    background-color:#7cc576;
+    padding:40px 0px;
+}
+
+    .readytotalk h1 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+.readytotalkbtn {
+    margin-top:25px;
+    height:50px;
+    width:180px;
+    background-color:#7cc576;
+    color:#fff;
+    border:2px solid #fff;
+    font-family: MonserratRegular;
+	font-weight: bold;
+	font-size: 18px;
+    text-transform:uppercase;
+}
+
+    .readytotalkbtn:hover {
+        background-color:#fff!important;
+        color:#7cc576!important;
+    }
+
+/*        LOGOS         */
+
+.logos {
+    height:auto;
+    min-height:170px;
+    vertical-align:middle;
+    padding-top:55px;
+}
+
+    .logos img {
+        padding-left:20px;
+    }
+
+/*            Footer Stuff         */
+
+.footerpg {
+    height: auto;
+    min-height: 320px;
+    background-color: #222222;
+    color: #fff;
+}
+
+.footerpgtop {
+    margin-top: 20px;
+}
+
+
+    .footerpg h1 {
+        font-family: MonserratRegular;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    .footerpg h2 {
+        font-family: RobotoSlab;
+        font-size: 16px;
+    }
+
+    .footerpg .footerpgtop ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+        .footerpg .footerpgtop ul .fa {
+            font-size: 24px;
+            vertical-align: top;
+        }
+
+        .footerpg .footerpgtop ul p {
+            display: inline-block;
+            width: 80px;
+            vertical-align: middle;
+            margin-left: 10px;
+            font-family: RobotoSlab;
+            font-size: 14px;
+            color: #cccccc;
+            line-height: 1.5;
+        }
+
+        .footerpg .footerpgtop .contact-us ul li:nth-last-child(1){
+            position:relative;
+            left:-10px;
+        }
+
+        .footerpg .footerpgtop .contact-us ul li:nth-child(2) p {
+            margin-left: 13px;
+        }
+
+        .footerpg .footerpgtop .latest-posts ul li p{
+            width: auto;
+
+        }
+
+        .footerpg .footerpgtop .latest-news ul li p {
+            width: 200px;
+
+        }
+
+    .footerpg .footerpgtop .latest-posts ul li:nth-last-child(1) p {
+        margin-left: 20px;
+    }
+
+/*         CopyRight         */
+
+.copyrights {
+    height:auto;
+    min-height:100px;
+    vertical-align:middle;
+    padding-top:25px;
+}
+
+
+    .copyrights h2 {
+        font-family: MonserratRegular;
+        font-size: 14px;
+        color:#a6a6a6;
+    }
+
+.copyrightspadmg {
+    width:4%;
+    padding-right:0px;
+    margin-top:10px;
+}
+
+/* back to top button  test 0.1v */
+
+.backToTop {
+    cursor:pointer;
+    background-color: #EEE;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 100px;
+    vertical-align: middle;
+    width: 100px;
+    color: #333;
+    text-align: center;
+    line-height: 100px;
+    z-index: 10;
+}
+
+
+
+
+
+
+/************* Animations ****************/
+/*****************************************/
+/*****************************************/
+
+@keyframes bounce {
+
+  0% {
+    transform:trasnlateY(-100%);
+    opacity:0;
+  }
+  5%{
+    transform:translateY(-100%);
+    opacity:0;
+  }
+  10%{
+    transform:translateY(0);
+    padding-bottom:5px;
+  }
+
+  15%{
+    transform:translateY(0);
+    padding-bottom:5px;
+  }
+  30%{
+    transform:translateY(-50%);
+  }
+
+  40%{
+    transform:translateY(0%);
+    padding-bottom:6px;
+  }
+
+  50% {
+
+    transform:translateY(-50%);
+  }
+  60%{
+    transform:translateY(0%);
+  }
+
+  65%{
+    transform:translateY(-40%);
+  }
+
+  70%{
+    transform:translateY(0%)l
+  }
+  80%{
+    transform:translateY(-15%);
+  }
+  90%{
+    transform:translateY(0%);
+  }
+  95%{
+    transform:translateY(-7%);
+  }
+  99%{
+    transform:translateY(-3%);
+  }
+
+  100%{
+    transform:translateY(0);
+    padding-bottom:9px;
+    opacity:1;
+  }
+
+}
+
+.th-mb-menu ul {
+  display:none;
+}
+
+.tree-bounce {
+  animation: bounce 1s ease-out;
+}
+
+
+/************** Media Query's ************/
+/*****************************************/
+
+
+@media screen and (max-width:1435px){
+    .backToTop {
+      display:none;
+    }
+}
+
+@media screen and (max-width:1063px){
+  #top .display-table {
+    display:block;
+    text-align:center;
+    padding-top:30px;
+  }
+    #top .display-table #logo {
+      display:block;
+      text-align:center;
+      width:100%;
+    }
+    #top .display-table #top-menu {
+        display:block;
+        text-align:center;
+        width:100%;
+        margin-top:10px;
+    }
+  #top-menu {
+    text-align:center;
+    display:inline-block;
+  }
+    #top-menu nav {
+      float:none!important;
+      margin:0 auto;
+    }
+}
+
+@media screen and (max-width:991px){
+  .wp-mobile {
+    text-align:center;
+  }
+  .oc-mobile-img {
+    display:none;
+  }
+}
+
+@media screen and (max-width:767px){
+  .copyrights {
+    display:none;
+  }
+}
