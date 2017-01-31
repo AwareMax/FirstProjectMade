@@ -32,6 +32,10 @@ body {
     float: none;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /************************************/
 /********  HEADER *******************/
 /************************************/
@@ -540,7 +544,7 @@ body {
             line-height: 1.5;
         }
 
-        .footerpg .footerpgtop .contact-us ul li:nth-last-child(1){
+        .footerpg .footerpgtop .contact-us ul li:nth-last-child(1) {
             position:relative;
             left:-10px;
         }
@@ -549,7 +553,7 @@ body {
             margin-left: 13px;
         }
 
-        .footerpg .footerpgtop .latest-posts ul li p{
+        .footerpg .footerpgtop .latest-posts ul li p {
             width: auto;
 
         }
@@ -604,13 +608,10 @@ body {
 }
 
 
-
-
-
-
 /************* Animations ****************/
 /*****************************************/
 /*****************************************/
+
 
 @keyframes bounce {
 
@@ -729,10 +730,7 @@ body {
   .oc-mobile-img {
     display:none;
   }
-}
-
-@media screen and (max-width:767px){
-  .copyrights {
-    display:none;
-  }
+    .copyrights {
+        display: none;
+    }
 }
