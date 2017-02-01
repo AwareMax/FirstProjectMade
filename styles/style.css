@@ -21,6 +21,11 @@ body {
 	margin: auto;
 }
 
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+
 .display-table {
     display: table;
     table-layout: fixed;
@@ -36,6 +41,13 @@ body {
     cursor: pointer;
 }
 
+.container-fluid {
+    margin-bottom: 45px !important;
+}
+
+.container-fluid:nth-last-child(1) {
+    margin-bottom:0 !important;
+}
 /************************************/
 /********  HEADER *******************/
 /************************************/
@@ -43,6 +55,7 @@ body {
 .top-header {
 	padding-left: 16.42%;
 	padding-right: 16.42%;
+    margin-bottom: 0 !important;
 }
 
     .top-header .row {
@@ -133,7 +146,6 @@ body {
 
 .profservices {
     height:535px;
-    max-height:535px;
 }
 
     .profservices h1 {
@@ -175,9 +187,6 @@ body {
     background:url(../images/just-relax.jpg);
     background-repeat:no-repeat;
     width:100%;
-    max-width:100%;
-    height:auto;
-    min-height:616px;
 }
 
     .middle-banner h1 {
@@ -220,7 +229,6 @@ body {
     background:url('../images/isometric-iPad-Air1.jpg');
     background-repeat:no-repeat;
     height:auto;
-    min-height:860px;
     width:100%;
 }
 
@@ -294,7 +302,6 @@ body {
 
 .cultureval {
     height:auto;
-    min-height:560px;
 }
 
 
@@ -351,7 +358,6 @@ body {
 
 .ourclients {
     height:auto;
-    min-height:810px;
 }
 
     .ourclients h1 {
@@ -392,7 +398,7 @@ body {
 .ourclientsrect {
     width:100%;
     height:auto;
-    min-height:172px;
+    padding: 25px 15px 20px;
     background-color:#f9f9f9;
     position:relative;
     top:10px;
@@ -411,11 +417,11 @@ body {
     }
 
 .ourclients h3 {
-    padding-top:45px;
     font-family: RobotoSlab;
 	font-size: 22px;
 	color: #777777;
     vertical-align: middle;
+    margin: 0;
 }
 
 .ourclients h4 {
@@ -427,7 +433,7 @@ body {
 .ourclientsrect1 {
     width:100%;
     height:auto;
-    min-height:172px;
+    padding: 25px 15px 20px;
     background-color:#f9f9f9;
     position:relative;
     top:10px;
@@ -451,7 +457,6 @@ body {
 
 .readytotalk {
     height:auto;
-    min-height:auto;
     background-color:#7cc576;
     padding:40px 0px;
 }
@@ -486,9 +491,7 @@ body {
 
 .logos {
     height:auto;
-    min-height:170px;
     vertical-align:middle;
-    padding-top:55px;
 }
 
     .logos img {
@@ -499,9 +502,9 @@ body {
 
 .footerpg {
     height: auto;
-    min-height: 320px;
     background-color: #222222;
     color: #fff;
+    padding-bottom:30px;
 }
 
 .footerpgtop {
@@ -690,13 +693,19 @@ body {
 /*****************************************/
 
 
-@media screen and (max-width:1435px){
+@media screen and ( max-width: 1435px ){
     .backToTop {
       display:none;
     }
 }
 
-@media screen and (max-width:1063px){
+@media screen and ( max-width: 1120px ) {
+    .display-none-th {
+        display:none;
+    }
+}
+
+@media screen and ( max-width: 1063px ){
   #top .display-table {
     display:block;
     text-align:center;
@@ -723,14 +732,35 @@ body {
     }
 }
 
-@media screen and (max-width:991px){
-  .wp-mobile {
-    text-align:center;
-  }
-  .oc-mobile-img {
-    display:none;
-  }
+@media screen and ( max-width:991px ){
+    body {
+        max-width: 100%;
+    }
+    .wp-mobile {
+        text-align:center;
+      }
+    .oc-mobile-img {
+        display:none;
+      }
     .copyrights {
         display: none;
+      }
+    .top-header {
+        margin-bottom:20px !important;
+    }
+    .container-fluid:nth-last-child(2) {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and ( max-width: 767px ) {
+    .contact-us.text-center-th {
+        text-align:center;
+    }
+    .latest-posts.text-center-th {
+        text-align:center;
+    }
+    .footerpg .footerpgtop ul p {
+        width: auto;
     }
 }
