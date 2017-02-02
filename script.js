@@ -9,7 +9,10 @@ $(document).ready(function(){
 
   
 });
-});
+    $("#button").on('click', function(){
+        $("#button").addClass('button-effect');
+    })
+
 /*$(document).ready(function(){
     $("#toTarget").click(function(){
         $('html, body').animate({
@@ -18,7 +21,6 @@ $(document).ready(function(){
     });
 });
 */
-$(document).ready(function(){
     $("li[data-target]").click(function(){
         var targetElement = $("#"+this.getAttribute("data-target"));
         $("html, body").animate({
@@ -34,23 +36,6 @@ $(document).ready(function(){
 	return false;
 });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*

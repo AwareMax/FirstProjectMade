@@ -611,6 +611,90 @@ body {
 }
 
 
+
+
+/************ Contact-us Page *************/
+/******************************************/
+/******************************************/
+
+.contact-us-th {
+    background-color: #f9f9f9;
+    padding: 50px 80px;
+}
+    .contact-us-th h3 {
+        font-family: RobotoSlab;
+        font-size: 22px;
+        font-weight: bold;
+        color: #777777;
+        vertical-align: middle;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+    .contact-us-th h4 {
+        font-family: MonserratRegular;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #222222;
+    }
+    .contact-us-th p {
+        font-family: MonserratRegular;
+        font-size: 16px;
+        color: #777777;
+        line-height: 32px;
+    }
+    .contact-us-th .our-services-th h4 {
+        font-family: MonserratRegular;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #777777;
+    }
+    .contact-us-th form label,
+    .contact-us-th form span {
+        font-family: MonserratRegular;
+        font-size: 14px;
+        font-weight: bold;
+        color: #777777;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+        .contact-us-th form span {
+            text-transform: initial;
+        }
+    .contact-us-th form input[type=text],
+    .contact-us-th form textarea {
+        padding: 10px 20px;
+        width: 600px;
+        line-height: 21px;
+        display: block;
+        font-family: MonserratRegular;
+        font-size: 14px;
+        color: #777777;
+        resize: none;
+    }
+.contact-us-th form input[placeholder] {
+    font-style: italic;
+    font-weight: normal;
+}
+.contact-us-th form input[type=submit] {
+    padding: 5px 15px;
+    background-color: #7cc576;
+    border: 0;
+    margin: 15px 0;
+    color: #f9f9f9;
+    font-family: MonserratRegular;
+    box-shadow: 0 3px 1px #888888;
+}
+
+#contact-us .container-fluid:nth-last-child(2) {
+    margin-bottom: 0 !important;
+} 
+
+.button-effect {
+    transform: translateY(5px);
+    box-shadow: none !important;
+}
 /************* Animations ****************/
 /*****************************************/
 /*****************************************/

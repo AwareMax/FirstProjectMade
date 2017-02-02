@@ -1,16 +1,22 @@
 
 $(document).ready(function(){
+    var name = $("#name");
+    var email = $("#email");
+    
+    $(name).blur(function(){
 
-    $("#name").blur(function(){
+       if ($(name).val() === "") {
 
-       if ($("#name")== "")
+           $(name).css("background", "#e74c3c");
+       }
+        else if ($(name).val() === "George"){
 
-           $("#name").css("background", "red");
-
-        else
-
-            $("#name").css("background","green");
-
+            $(name).css("background","#7cc576");
+        }
+        
+        else {
+            $(name).css('background',"initial");
+        }
     });
 
 //to do
@@ -33,13 +39,13 @@ $.ajax({
     "succes": function(result){
 
         if(result == "1")
-
+            
             console.log("Ne-ai mai contactat!");
-
+        
         else
-
+            
             console.log("Bine ai venit!");
 
-};
+}
 
 });
