@@ -39,17 +39,19 @@
             <div class="col-md-8">
                 <h3>Contact us</h3>
                 <p>We're happy to answer any questions you have or provide you with an estimate. Just send us a message in the form below with any question you may have</p>
+                
                 <form method="post" action="form-data.php">
                     <label>Tell us Thy Name</label><span>&nbsp;( required )</span>
                     <input type='text' id='name' name='Name' required />
                     <label>Your Email</label><span>&nbsp;( required )</span>
-                    <input type='text' id='email' required />
+                    <input type='text' id='email' name='Email' required />
                     <label>Subject</label>
-                    <input type='text'/>
+                    <input type='text' name='Subject'/>
                     <label>Your Message</label>
-                    <textarea rows="6" cols='50' placeholder='Here we go !' required></textarea>
+                    <textarea rows="6" cols='50' name="Message" placeholder='Here we go !' required></textarea>
                     <input type='submit' id='button' value='SEND'> 
                 </form>
+                
             </div>
             <div class='col-md-4 our-services-th'>
                 <h4>Our Email</h4>
